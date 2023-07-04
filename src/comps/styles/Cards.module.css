@@ -1,0 +1,14 @@
+.card {
+  /* aspect-ratio: 3/2; */
+  height: 4rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--elevation-1);
+  color: var(--text-color);
+  border-radius: 0.5rem;
+  scroll-snap-align: start;
+  white-space: nowrap;
+  box-shadow: var(--card-shadow);
+}

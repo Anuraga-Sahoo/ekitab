@@ -1,0 +1,14 @@
+.form_wrapper{
+    border-top: var(--border);
+    border-bottom: var(--border);
+}
+
+.form{
+    display: flex;
+    width: clamp(0px, 70%, 900px);
+    margin: 0 auto;
+}
+
+.form>input{
+    flex-grow: 1;
+}

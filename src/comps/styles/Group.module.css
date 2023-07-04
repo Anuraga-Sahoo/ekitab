@@ -1,0 +1,14 @@
+.card {
+    padding: 1rem;
+    background: red;
+}
+
+.card>div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card>div>input {
+    flex-grow: 1;
+}

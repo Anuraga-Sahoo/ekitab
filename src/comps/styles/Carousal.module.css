@@ -1,0 +1,14 @@
+.Carousal{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+}
+/* 
+.Carousal>img{
+    height: clamp(200px, 40%, 400px); 
+    object-fit: cover;
+    scroll-snap-align: center;
+    width: 100%;
+} */
